@@ -5,39 +5,24 @@ namespace GGWP{
     class WPGG{
         public static void Main(string[] args){
             // declare int a, and b to operate
-            int a,b;
+            string str;
 
-            //string template to prompt number
-            string num_prompt = "Type a number, and then press Enter";
-            Console.WriteLine(num_prompt);
+            Console.WriteLine("Enter a string");
 
-            //get a
-            a = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(num_prompt);
+            str = Console.ReadLine(); // "hell" -> str = "hell"
+            int len = str.Length; // str -> "hell" -> len = 4
+            Console.WriteLine($"String Length: {len}");
 
-            //get b
-            b = Convert.ToInt32(Console.ReadLine());
+            int amount = 1 - len % 2; // len=4-> 1 - 4 % 2-> 1-0-> 1 -> amount=1
+            Console.WriteLine($"amount: {amount}");
 
-            //prompt operand (+,-,*,/)
-            Console.WriteLine("Choose an option from the following list:\n\ta - Add\n\ts - Substract\n\tm - Multiplication\n\td - Division");
+            string mid_string = str.Substring(len/2-amount, 1+amount);
+            // စဖြတ်မယ့်နေရာ/index -> len/2-amount -> 4/2-1 -> 2-1->1 -> index -> 1
+            // ဖြတ်မယ့် စာလုံးအရည်အတွက် -> 1+amount -> 1 + 1 -> 2
+            // hell -> el
+            Console.WriteLine(mid_string);
 
-            switch(Console.ReadLine()){
-                case "a":
-                    Console.WriteLine($"Your Result: {a} + {b} = {a+b}");
-                    break;
-                case "s":
-                    Console.WriteLine($"Your Result: {a} - {b} = {a-b}");
-                    break;
-                case "m":
-                    Console.WriteLine($"Your Result: {a} * {b} = {a*b}");
-                    break;
-                case "d":
-                    Console.WriteLine($"Your Result: {a} / {b} = {a/b}");
-                    break;
-                default:
-                    Console.WriteLine("Are you too stupid to read that simple instructions?");
-                    break;
-            }
+
         }
         
     }

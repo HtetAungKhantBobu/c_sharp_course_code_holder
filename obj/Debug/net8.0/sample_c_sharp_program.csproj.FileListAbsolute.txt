@@ -12,3 +12,4 @@
 /Users/htetaungkhant/Desktop/teaching/c_sharp/console_class/sample_c_sharp_program/obj/Debug/net8.0/sample_c_sharp_program.pdb
 /Users/htetaungkhant/Desktop/teaching/c_sharp/console_class/sample_c_sharp_program/obj/Debug/net8.0/sample_c_sharp_program.genruntimeconfig.cache
 /Users/htetaungkhant/Desktop/teaching/c_sharp/console_class/sample_c_sharp_program/obj/Debug/net8.0/ref/sample_c_sharp_program.dll
+/Users/htetaungkhant/Desktop/teaching/c_sharp/console_class/sample_c_sharp_program/obj/Debug/net8.0/sample_c_sharp_program.sourcelink.json
