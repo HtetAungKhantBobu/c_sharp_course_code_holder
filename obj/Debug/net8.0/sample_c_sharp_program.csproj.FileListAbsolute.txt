@@ -1,0 +1,14 @@
+/Users/htetaungkhant/Desktop/teaching/c_sharp/console_class/sample_c_sharp_program/bin/Debug/net8.0/sample_c_sharp_program
+/Users/htetaungkhant/Desktop/teaching/c_sharp/console_class/sample_c_sharp_program/bin/Debug/net8.0/sample_c_sharp_program.deps.json
+/Users/htetaungkhant/Desktop/teaching/c_sharp/console_class/sample_c_sharp_program/bin/Debug/net8.0/sample_c_sharp_program.runtimeconfig.json
+/Users/htetaungkhant/Desktop/teaching/c_sharp/console_class/sample_c_sharp_program/bin/Debug/net8.0/sample_c_sharp_program.dll
+/Users/htetaungkhant/Desktop/teaching/c_sharp/console_class/sample_c_sharp_program/bin/Debug/net8.0/sample_c_sharp_program.pdb
+/Users/htetaungkhant/Desktop/teaching/c_sharp/console_class/sample_c_sharp_program/obj/Debug/net8.0/sample_c_sharp_program.GeneratedMSBuildEditorConfig.editorconfig
+/Users/htetaungkhant/Desktop/teaching/c_sharp/console_class/sample_c_sharp_program/obj/Debug/net8.0/sample_c_sharp_program.AssemblyInfoInputs.cache
+/Users/htetaungkhant/Desktop/teaching/c_sharp/console_class/sample_c_sharp_program/obj/Debug/net8.0/sample_c_sharp_program.AssemblyInfo.cs
+/Users/htetaungkhant/Desktop/teaching/c_sharp/console_class/sample_c_sharp_program/obj/Debug/net8.0/sample_c_sharp_program.csproj.CoreCompileInputs.cache
+/Users/htetaungkhant/Desktop/teaching/c_sharp/console_class/sample_c_sharp_program/obj/Debug/net8.0/sample_c_sharp_program.dll
+/Users/htetaungkhant/Desktop/teaching/c_sharp/console_class/sample_c_sharp_program/obj/Debug/net8.0/refint/sample_c_sharp_program.dll
+/Users/htetaungkhant/Desktop/teaching/c_sharp/console_class/sample_c_sharp_program/obj/Debug/net8.0/sample_c_sharp_program.pdb
+/Users/htetaungkhant/Desktop/teaching/c_sharp/console_class/sample_c_sharp_program/obj/Debug/net8.0/sample_c_sharp_program.genruntimeconfig.cache
+/Users/htetaungkhant/Desktop/teaching/c_sharp/console_class/sample_c_sharp_program/obj/Debug/net8.0/ref/sample_c_sharp_program.dll
