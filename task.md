@@ -1,8 +1,6 @@
 # Task
-Write a c# console program to grade a student, using the mark input from console.
-1. if the `mark` is `less than 0` or `greater than 100`, `print "Invalid Mark"`
-2. if the `mark` is `greater than or equal to 0`, but `less than 50`, `print "Grade D"`
-3. if the `mark` is `greater than or equal to 50`, but `less than 60` `print "Grade C`
-4. if the `mark` is `greater than or equal to 60`, but `less than 80` `print "Grade B`
-5. if the `mark` is `greater than or equal to 80`, but `less than 90` `print "Grade A`
-6. if the `mark` is `greater than or equal to 90`, `print "Grade A+"`
+1. make a temp_sum with value : 0
+2. make a loop 
+3. print current number (starts with 1)
+4. add it to the temp_sum
+5. after the loop is finished, print the sum (which is the sum of 1->10)
