@@ -3,27 +3,32 @@ using System.IO.Compression;
 
 namespace GGWP{
     class WPGG{
-        public static void Main(string[] args){
-            // int counter = 11; // initiate the variable for while/do while condition
-            Console.WriteLine("Starting Loop ...");
-            // while loop
-            // while (counter <= 10){
-            //     Console.WriteLine($"Current counter value is : {counter}");
-            //     counter++;
-            // }
 
-            // do while loop 
-            // do{
-            //     Console.WriteLine($"Current counter value is: {counter}");
-            //     counter ++;
-            // }while(counter <= 10);
-
-            //for loop
-            for(int counter=0;counter<=10;counter++){
-                Console.WriteLine($"Current counter is : {counter}");
+        public bool isPrime(int num){
+            if (num <= 1){
+                return false;
             }
-            Console.WriteLine($"Out of the loop.");
-            Console.ReadLine();
+            else if(num % 2 == 0){
+                if (num > 2){
+                    return false;
+                }
+            }
+            else{
+                for(int c=3; c<=num/2; c++){
+                    if (num % c == 0){
+                        return false;
+                    }
+                }
+            }
+            return true;
+        }
+
+        public static void Main(string[] args){
+            WPGG wpgg_instance_1 = new WPGG();
+            Console.WriteLine("Enter a Number");
+            int n = Convert.ToInt32(Console.ReadLine());
+            bool res = wpgg_instance_1.isPrime(n);
+            Console.WriteLine($"{n} is prime? : {res}");
         }
         
     }
